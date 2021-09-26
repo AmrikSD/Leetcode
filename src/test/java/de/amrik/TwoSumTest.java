@@ -1,11 +1,11 @@
 package de.amrik;
 
+import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 
 import java.util.Arrays;
 
 import static de.amrik.TwoSum.twoSum;
-import org.junit.Test;
 
 public class TwoSumTest {
 

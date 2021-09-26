@@ -2,6 +2,9 @@ package de.amrik;
 
 import java.util.HashMap;
 
+/**
+ * https://leetcode.com/problems/two-sum/
+ */
 public class TwoSum {
 
     /***
