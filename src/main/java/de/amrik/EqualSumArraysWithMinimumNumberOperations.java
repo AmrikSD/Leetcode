@@ -2,9 +2,6 @@ package de.amrik;
 
 import java.util.Arrays;
 
-/**
- * TODO: Finish me, understand me :)
- */
 public class EqualSumArraysWithMinimumNumberOperations {
 
     public static int equalSumOfArraysWithMinOperations(int[] nums1, int[] nums2) {
