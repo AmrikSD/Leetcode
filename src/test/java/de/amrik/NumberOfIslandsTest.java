@@ -9,7 +9,6 @@ public class NumberOfIslandsTest {
 
     @Test
     public void justOneIsland() {
-        // note diagonal doesn't count.
         char[][] input = { { '1', '1', '1', '1', '0' }, { '1', '1', '0', '1', '0' }, { '1', '1', '0', '0', '0' },
                 { '0', '0', '0', '0', '0' } };
         int expected = 1;
@@ -18,10 +17,11 @@ public class NumberOfIslandsTest {
 
     @Test
     public void threeislands() {
-        // note diagonal doesn't count.
-        char[][] input = { { '1', '1', '1', '1', '0' }, { '1', '1', '0', '1', '0' }, { '1', '1', '0', '0', '0' },
-                { '0', '0', '0', '0', '0' } };
+        // Note: diagonal doens't count
+        char[][] input = { { '1', '1', '0', '0', '0' }, { '1', '1', '0', '0', '0' }, { '0', '0', '1', '0', '0' },
+                { '0', '0', '0', '1', '1' } };
         int expected = 3;
         assertEquals(expected, numIslands(input));
     }
+
 }
