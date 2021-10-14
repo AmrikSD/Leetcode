@@ -1,3 +1,7 @@
+# Resources
+- https://seanprashad.com/leetcode-patterns/
+- https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
+
 # Need to Revisit
 
 - 1775 - [Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)
