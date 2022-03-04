@@ -6,8 +6,8 @@ import java.util.List;
 
 public class FindAllNumbersDisappearedInArray {
     public static List<Integer> findDisappearedNumbers(int[] nums) {
-        HashMap<Integer, Boolean> hm = new HashMap<Integer, Boolean>(nums.length);
-        List<Integer> result = new LinkedList<Integer>();
+        HashMap<Integer, Boolean> hm = new HashMap<>(nums.length);
+        List<Integer> result = new LinkedList<>();
 
         for (int i : nums) {
             hm.put(i, true);
