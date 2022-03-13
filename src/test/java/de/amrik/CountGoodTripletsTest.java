@@ -1,7 +1,5 @@
 package de.amrik;
 
-import java.util.List;
-
 import static de.amrik.CountGoodTriplets.countGoodTriplets;
 import static org.junit.Assert.assertEquals;
 
